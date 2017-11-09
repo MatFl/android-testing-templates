@@ -25,4 +25,7 @@ dependencies {
     compile 'com.android.support.test:runner:' + rootProject.ext.runnerVersion
     compile 'com.android.support.test:rules:' + rootProject.ext.rulesVersion
     compile 'org.hamcrest:hamcrest-core:' + rootProject.ext.hamcrestVersion
+
+    // Espresso UI Testing
+    compile 'com.android.support.test.espresso:espresso-core:' + rootProject.ext.espressoVersion
 }
